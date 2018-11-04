@@ -1,0 +1,237 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Open http://localhost:3000 and click on \u0027Render the Challenge\u0027 button",
+        "description": "",
+        "id": "ecsd-technical-test;open-http://localhost:3000-and-click-on-\u0027render-the-challenge\u0027-button",
+        "after": [
+          {
+            "result": {
+              "duration": 1488490004,
+              "status": "passed"
+            },
+            "match": {
+              "location": "test1StepDef.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5985213921,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the application home page",
+            "match": {
+              "location": "test1StepDef.theUserIsOnTheApplicationHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2190549369,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user click on RENDER THE CHALLENGE button",
+            "match": {
+              "location": "test1StepDef.theUserClickOnRENDERTHECHALLENGEButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3062607494,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the Array Challenge should be displayed",
+            "match": {
+              "location": "test1StepDef.theArrayChallengeShouldBeDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Test1"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Create 3 arrays out of the given table rows",
+        "description": "",
+        "id": "ecsd-technical-test;create-3-arrays-out-of-the-given-table-rows",
+        "after": [
+          {
+            "result": {
+              "duration": 1382817488,
+              "status": "passed"
+            },
+            "match": {
+              "location": "test1StepDef.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4221981494,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user is on the application home page",
+            "match": {
+              "location": "test1StepDef.theUserIsOnTheApplicationHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2150764772,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user click on RENDER THE CHALLENGE button",
+            "match": {
+              "location": "test1StepDef.theUserClickOnRENDERTHECHALLENGEButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3084871190,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the Array Challenge should be displayed",
+            "match": {
+              "location": "test1StepDef.theArrayChallengeShouldBeDisplayed()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 542994603,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the table rows are extracted in an array",
+            "match": {
+              "location": "test1StepDef.theTableRowsAreExtractedInAnArray()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1356677542,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "displayed on screen",
+            "match": {
+              "location": "test1StepDef.displayedOnScreen()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@Test2"
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Find the answer for all the 3 arrays and submit",
+        "description": "",
+        "id": "ecsd-technical-test;find-the-answer-for-all-the-3-arrays-and-submit",
+        "after": [
+          {
+            "result": {
+              "duration": 4354946709,
+              "status": "passed"
+            },
+            "match": {
+              "location": "test1StepDef.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4529742637,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user is on the application home page",
+            "match": {
+              "location": "test1StepDef.theUserIsOnTheApplicationHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2159398542,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user click on RENDER THE CHALLENGE button",
+            "match": {
+              "location": "test1StepDef.theUserClickOnRENDERTHECHALLENGEButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3061564992,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the Array Challenge should be displayed",
+            "match": {
+              "location": "test1StepDef.theArrayChallengeShouldBeDisplayed()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7940248910,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "calculate and submit the answers",
+            "match": {
+              "location": "test1StepDef.calculateAndSubmitTheAnswers()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@Test3"
+          }
+        ]
+      }
+    ],
+    "name": "ECSD technical test",
+    "description": "",
+    "id": "ecsd-technical-test",
+    "keyword": "Feature",
+    "uri": "features/test1.feature"
+  }
+]
